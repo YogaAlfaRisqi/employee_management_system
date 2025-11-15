@@ -17,25 +17,25 @@
 
 [x] Buat branch develop
 
-[] Commit awal “initialize setup laravel 12 installing”
+[x] Commit awal “initialize setup laravel 12 installing”
 
 3. Laravel Installation
 
-[] Install Laravel 11 menggunakan Composer
+[x] Install Laravel 12 menggunakan Composer
 
-[] Setup .env
+[x] Setup .env
 
-[] Generate app key
+[x] Generate app key
 
-[] Buat database fsi_test
+[x] Buat database fsi_test
 
-[] Commit: “chore: setup Laravel 11 base project”
+[x] Commit: “chore: setup Laravel 11 base project”
 
 4. Optional (Direkomendasikan)
 
-[] Install FilamentPHP v3 (admin panel modern)
+[x] Install FilamentPHP v3 (admin panel modern)
 
-[] Install Panel & Theme default
+[x] Install Panel & Theme default
 
 [] Commit: “feat: install & configure Filament admin panel”
 
