@@ -34,7 +34,7 @@ class Employee extends Model
         'phone_number',
         'address',
         'employment_status',
-        'salary',
+        'basic_salary',
     ];
 
     /**
