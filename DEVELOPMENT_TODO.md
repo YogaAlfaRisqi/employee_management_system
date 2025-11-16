@@ -17,99 +17,27 @@
 
 [x] Buat branch develop
 
-[] Commit awal “initialize setup laravel 12 installing”
+[x] Commit awal “initialize setup laravel 12 installing”
 
 3. Laravel Installation
 
-[] Install Laravel 11 menggunakan Composer
+[x] Install Laravel 12 menggunakan Composer
 
-[] Setup .env
+[x] Setup .env
 
-[] Generate app key
+[x] Generate app key
 
-[] Buat database fsi_test
+[x] Buat database fsi_test
 
-[] Commit: “chore: setup Laravel 11 base project”
+[x] Commit: “chore: setup Laravel 11 base project”
 
 4. Optional (Direkomendasikan)
 
-[] Install FilamentPHP v3 (admin panel modern)
+[x] Install FilamentPHP v3 (admin panel modern)
 
-[] Install Panel & Theme default
+[x] Install Panel & Theme default
 
-[] Commit: “feat: install & configure Filament admin panel”
-
-- AUTHENTICATION MODULE (feature/auth)
-
-Requirement: Admin dapat login ke sistem.
-
-✔ Branch Preparation
-
- Checkout branch feature/auth
-
-✔ Database
-
- Buat migration admins (jika tidak memakai Filament)
-
- name
-
- email (unique)
-
- password
-
- timestamps
-
- Buat seeder Admin default
-
- Commit: “feat: add admin migration & seeder”
-
-✔ Authentication Logic
-
- Buat LoginController
-
- Buat login form (Blade / Filament)
-
- Implementasi login menggunakan session guard web
-
- Validasi form login:
-
- email required + valid
-
- password required
-
- Error handling:
-
- Email tidak ditemukan
-
- Password salah
-
- Implement logout logic
-
- Commit: “feat: add admin login & logout functionality”
-
-✔ Middleware
-
- Tambahkan middleware auth
-
- Proteksi halaman dashboard & employee management
-
- Commit: “feat: add auth middleware protection”
-
-✔ Testing Manual
-
- Login sukses dengan akun admin
-
- Login gagal dengan email salah
-
- Login gagal dengan password salah
-
- Akses dashboard tanpa login = redirect ke login
-
-✔ Merging
-
- Merge feature/auth → develop
-
- Hapus branch (opsional)
+[x] Commit: “feat: install & configure Filament admin panel”
 
 - EMPLOYEE CRUD MODULE (feature/employee-crud)
 
