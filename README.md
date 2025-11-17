@@ -1,6 +1,6 @@
 Employee Management System
 
-Sistem Manajemen Pegawai berbasis Laravel 11 dan Filament 3.3 untuk Technical Test Full Stack Developer Intern di Sinergi Impact Indonesia.
+Sistem Manajemen Pegawai berbasis Laravel 12 dan Filament 3.3 untuk Technical Test Full Stack Developer Intern di Sinergi Impact Indonesia.
 
 📋 Daftar Isi
 
